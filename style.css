@@ -1,0 +1,107 @@
+html, body {
+	background: #0A5880;
+	font-family: "Titillium Web";
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#logo {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+h1 {
+	font-family: "Montserrat";
+	font-size: 60px;
+	width: auto;
+	display: inline-block;
+}
+
+form {
+	text-align: right;
+}
+textarea {
+	width: 100%;
+	height: 120px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.95);
+	box-sizing: border-box;
+	border: 1px solid #49AFE3;
+	font-family: "Titillium Web";
+	border-radius: 5px;
+	font-size: 25px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+input {
+	margin-top: 5px;
+	width: 50%;
+	padding: 15px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	color: white;
+	border: none;
+	font-family: "Montserrat";
+	border-radius: 5px;
+	font-size: 25px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+input:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.story {
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	font-size: 25px;
+	border-radius: 5px;
+	font-family: "Titillium Web";
+	border: 1px solid #49AFE3;
+	color: #00314A;
+	text-shadow: none;
+	margin-top: 20px;
+}
+
+.story .score{
+	float: left;
+	width: auto;
+	font-family: "Montserrat";
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.7);;
+	background: #3284AD;
+	border-radius: 5px;
+	margin-right: 20px;
+	padding: 10px;
+	line-height: 30px;
+}
+
+.story .score i {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.story .score i:hover {
+	opacity: 0.8;
+}
+
+.story .time {
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+.clear {
+	clear: both;
+}
